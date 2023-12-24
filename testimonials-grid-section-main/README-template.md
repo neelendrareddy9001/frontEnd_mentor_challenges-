@@ -1,6 +1,6 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Testimonials grid section solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -24,7 +24,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 Users should be able to:
 
-- See hover and focus states for all interactive elements on the page
+- View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
 
