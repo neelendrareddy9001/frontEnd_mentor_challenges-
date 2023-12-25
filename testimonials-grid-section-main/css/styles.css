@@ -71,7 +71,7 @@ body {
   font-weight: 500;
 }
 .item p {
-  color: var(--dark-blackish-blue);
+  color: var(--light-gray);
   line-height: 18px;
 }
 .item1 {
@@ -112,8 +112,22 @@ body {
   background-color: var(--dark-blackish-blue);
   color: white;
 }
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
+  body {
+    margin: 1rem auto;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 85%;
+    margin: 1rem auto;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  body {
+    margin: 1rem 3rem;
+  }
 }
