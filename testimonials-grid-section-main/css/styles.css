@@ -25,20 +25,63 @@ html {
 body {
   font-size: 13px;
   background-color: var(--light-gray);
+  margin: 1rem 3.6rem;
+  font-family: "Barlow Semi Condensed";
 }
 
 .container {
-  min-height: 100vh;
-  margin: 2.5rem 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(240px, min-content));
+  grid-template-rows: repeat(2, minmax(140px, min-content));
+  grid-gap: 20px;
+}
+.item {
+  border-radius: 8px;
+}
+.item .item-info {
+  padding: 24px 20px;
+}
+.item .item-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  margin-right: 16px;
+}
+.item:nth-child(1) .item-header img,
+.item:nth-child(5) .item-header img {
+  border: 2px solid var(--moderate-violet);
+}
+.item h5 {
+  font-size: 14px;
+}
+.item:nth-child(3) .item-title h5 {
+  color: var(--dark-grayish-blue);
+  margin-bottom: 2px;
+}
+.item .item-title span {
+  color: var(--light-gray);
+}
+.item h3 {
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.item p {
+  color: var(--dark-blackish-blue);
+  line-height: 18px;
 }
 .item1 {
   grid-column: 1 / 3;
   grid-row: 1 / 2;
   background-color: var(--moderate-violet);
-  color: white;
+  color: var(--light-gray);
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top;
 }
 .item2 {
   background-color: var(--dark-grayish-blue);
@@ -64,6 +107,8 @@ body {
 }
 
 .item5 {
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
   background-color: var(--dark-blackish-blue);
   color: white;
 }
