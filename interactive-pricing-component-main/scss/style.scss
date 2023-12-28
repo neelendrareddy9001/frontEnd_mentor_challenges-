@@ -26,10 +26,39 @@
 }
 
 body {
-  background-color: var(--main-background);
-  color: white;
+  background: var(--main-background);
   text-align: center;
   font-family: "Manrope", sans-serif;
+  background-image: url(../images/bg-pattern.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-top {
+  margin: 5rem auto;
+}
+.container {
+  background-image: url(../images/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: auto;
+}
+.container h2 {
+  color: var(--text-cta-background);
+}
+.container p {
+  padding-top: 6px;
+  color: grey;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.container-card {
+  margin-top: 34px;
+
+  width: 450px;
+
+  background: white;
 }
 
 @media screen and (max-width: 375px) {
