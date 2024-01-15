@@ -36,24 +36,54 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3em 3.5rem;
+  margin: 1rem 5rem 0.5rem 5rem;
   position: relative;
+  cursor: pointer;
+}
+
+hr {
+  margin: auto 5rem;
 }
 
 h1 {
   font-size: 3rem;
 }
 
+.main-menu {
+  display: flex;
+  align-items: center;
+}
+
 .main-menu ul {
-  position: absolute;
-  display: inline-flex;
-  transform: translateX(-148%);
+  transform: translateX(-40rem);
 }
 
+.main-menu ul {
+  display: flex;
+  align-items: center;
+}
 .main-menu ul li {
-  margin: 0px 1rem;
+  padding: 0 12px;
+}
+.main-menu ul li a {
+  color: var(--very-dark-blue);
 }
 
-.main-menu ul li a {
-  font-size: 18px;
+.responsive span {
+  padding: 0 12px;
+}
+.responsive span:first-child {
+  margin-top: -18px;
+}
+.responsive span.cart {
+  margin-top: -28px;
+}
+.responsive span .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--orange);
+}
+.responsive span .avatar:hover {
+  border-color: var(--orange);
 }
