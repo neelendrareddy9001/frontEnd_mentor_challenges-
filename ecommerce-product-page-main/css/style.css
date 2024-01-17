@@ -30,14 +30,14 @@ header {
 }
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   position: relative;
-  cursor: pointer;
+  
 }
 h1 {
   font-size: 3rem;
-
+  cursor: pointer;
 }
 
 .main-menu {
@@ -48,12 +48,16 @@ h1 {
   right: 3%;
 }
 .menu-list {
-  display: inline-flex;
-  left: -10%;
-
+  display:flex;
+  transform: translateX(-23%);
+}
+hr {
+  margin:  0 12.5rem;
 }
 .menu-list li {
   list-style: none;
+  margin: 0 0.8rem;
+  cursor: pointer;
 }
 .menu-list li a {
   text-decoration: none;
@@ -65,13 +69,15 @@ h1 {
 
 .cart {
   margin-top: 17px;
-  margin-right: 18px;
+  margin-right: 42px;
+  cursor: pointer;
 }
 
 .avatar {
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .responsive {
